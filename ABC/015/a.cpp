@@ -7,14 +7,13 @@ using ll = long long;
 using P = pair<int,int>;
 
 int main() {
-  int a, b, ans;
-  cin >> a >> b;
-  ans = a * b;
+  string A, B;
+  cin >> A >> B;
 
-  if (ans % 2 == 0) {
-    cout << "Even" << endl;
-  } else {
-    cout << "Odd" << endl;
+  if (A.size() < B.size()) {
+    cout << B << endl;
+  } else if (A.size() > B.size()) {
+    cout << A << endl;
   }
   return 0;
 }

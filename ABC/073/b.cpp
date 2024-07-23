@@ -7,14 +7,16 @@ using ll = long long;
 using P = pair<int,int>;
 
 int main() {
-  int a, b, ans;
-  cin >> a >> b;
-  ans = a * b;
+  int N;
+  cin >> N;
+  int count = 0;
 
-  if (ans % 2 == 0) {
-    cout << "Even" << endl;
-  } else {
-    cout << "Odd" << endl;
+  for (int i = 0; i < N; i++) {
+    int l, r;
+    cin >> l >> r;
+    count += r - l + 1;
   }
+
+  cout << count << endl;
   return 0;
 }

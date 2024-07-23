@@ -7,14 +7,13 @@ using ll = long long;
 using P = pair<int,int>;
 
 int main() {
-  int a, b, ans;
-  cin >> a >> b;
-  ans = a * b;
+  string c;
+  cin >> c;
 
-  if (ans % 2 == 0) {
-    cout << "Even" << endl;
+  if (c == "a" || c == "e" || c == "i" || c == "o" || c == "u") {
+    cout << "vowel" << endl;
   } else {
-    cout << "Odd" << endl;
+    cout << "consonant" << endl;
   }
   return 0;
 }

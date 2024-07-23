@@ -7,7 +7,7 @@ using ll = long long;
 using P = pair<int,int>;
 
 int main() {
-  int N,A,B,T;
+  int N, A, B, T;
   cin >> N >> A >> B;
   T = N * A;
 

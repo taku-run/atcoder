@@ -7,7 +7,7 @@ using ll = long long;
 using P = pair<int,int>;
 
 int main() {
-  int A,B,C,D,L,R;
+  int A, B, C, D, L, R;
   cin >> A >> B >> C >> D;
   L = A + B;
   R = C + D;

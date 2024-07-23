@@ -7,14 +7,14 @@ using ll = long long;
 using P = pair<int,int>;
 
 int main() {
-  int a, b, ans;
-  cin >> a >> b;
-  ans = a * b;
+  int A, B;
+  string op;
+  cin >> A >> op >> B;
 
-  if (ans % 2 == 0) {
-    cout << "Even" << endl;
-  } else {
-    cout << "Odd" << endl;
+  if (op == "+") {
+    cout << A + B << endl;
+  } else if (op == "-") {
+    cout << A - B << endl;
   }
   return 0;
 }

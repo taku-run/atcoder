@@ -7,14 +7,18 @@ using ll = long long;
 using P = pair<int,int>;
 
 int main() {
-  int a, b, ans;
-  cin >> a >> b;
-  ans = a * b;
-
-  if (ans % 2 == 0) {
-    cout << "Even" << endl;
-  } else {
-    cout << "Odd" << endl;
+  int N;
+  cin >> N;
+    
+  for (int i = 0; i < N; i++) {
+    string S;
+    cin >> S;
+    if (S == "Y") {
+      cout << "Four" << endl;
+      return 0;
+    }
   }
+
+  cout << "Three" << endl;
   return 0;
 }

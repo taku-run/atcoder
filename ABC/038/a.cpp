@@ -7,14 +7,15 @@ using ll = long long;
 using P = pair<int,int>;
 
 int main() {
-  int a, b, ans;
-  cin >> a >> b;
-  ans = a * b;
+  string S;
+  int length;
+  cin >> S;
+  length = S.size();
 
-  if (ans % 2 == 0) {
-    cout << "Even" << endl;
+  if (S[length - 1] == 'T') {
+    cout << "YES" << endl;
   } else {
-    cout << "Odd" << endl;
+    cout << "NO" << endl;
   }
   return 0;
 }

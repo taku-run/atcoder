@@ -7,7 +7,7 @@ using ll = long long;
 using P = pair<int,int>;
 
 int main() {
-  int M,time;
+  int M, time;
   cin >> M;
   time = 24 - M;
 
